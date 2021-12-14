@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 0</title>
+    <script type = "text/javascript" src = "Index.js"></script>
+    <link rel="StyleSheet" href="Style.css">
+</head>
+<body>
+    <!-- video by thebiggysmith-->
+    <video loop autoplay muted>
+        <source src="Videos/yt5s.com-Matrix Raining Code.mp4" type="video/mp4">
+    </video>
+    <div class = "keyboard">
+        <table>
+            <th colspan="4">
+                <input id = "answers" maxlength="10" type="text">
+                <td> 
+                    <input class = "button" id ="button0" type="button" value="C" onclick="del()">
+                 </td>
+            </th>
+            <tr>
+                <td>
+                    <input class = "button" id ="button1" type="button" value="1" onclick="mydisplay(1)">
+                </td>
+                <td>
+                    <input class = "button" id ="button2" type="button" value="2" onclick="mydisplay(2)">
+                </td>
+                <td>
+                    <input class = "button" id ="button3" type="button" value="3" onclick="mydisplay(3)">
+                </td>
+                <td>
+                    <input class = "button" id ="button4" type="button" value="+" onclick="mydisplay('+')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class = "button" id ="button5" type="button" value="4" onclick="mydisplay(4)">
+                </td>
+                <td>
+                    <input class = "button" id ="button6" type="button" value="5" onclick="mydisplay(5)">
+                </td>
+                <td>
+                    <input class = "button" id ="button7" type="button" value="6" onclick="mydisplay(6)">
+                </td>
+                <td>
+                    <input class = "button" id ="button8" type="button" value="-" onclick="mydisplay('-')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class = "button" id ="button9" type="button" value="7" onclick="mydisplay(7)">
+                </td>
+                <td>
+                    <input class = "button" id ="button10" type="button" value="8" onclick="mydisplay(8)">
+                </td>
+                <td>
+                    <input class = "button" id ="button11" type="button" value="9" onclick="mydisplay(9)">
+                </td>
+                <td>
+                    <input class = "button" id ="button12" type="button" value="x" onclick="mydisplay('*')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class = "button" id ="button13" type="button" value="0" onclick="mydisplay(0)">
+                </td>
+                <td colspan="2">
+                    <input class = "equals" id ="button14" type="button" value="=" onclick="equals()">
+                </td>
+                <td>
+                    <input class = "button" id ="button15" type="button" value="÷" onclick="mydisplay('/')">
+                </td>
+            </tr>                
+        </table>
+    </div>
+    <div class = "credits">
+        <h1>video by <a href="https://www.youtube.com/user/thebiggysmith/featured"> thebiggysmith</a> <br /></h1>
+    </div>
+</body>
+</html>
+
